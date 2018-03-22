@@ -1,0 +1,47 @@
+#photo-content{
+	min-height: 200pt;
+    overflow-y: scroll;
+}
+.banner-item{
+	height:100pt;
+	width:100pt;
+	background-color:silver;
+	border-radius:5pt;
+	position:relative;
+	cursor:pointer;
+    margin-right: 3pt;
+    float: left;
+}
+.banner-item img{
+	width: 100%;
+}
+.banner-item>div{
+	display:block;
+	height:100%;
+	width:100%;
+	overflow:hidden;
+}
+.active-banner{
+	border:solid green 2pt;
+}
+.banner-rem-btn{
+	z-index:999;
+	width:17pt;
+	height:17pt;
+	border-radius:17pt;
+	background-color:red;
+	color:white;
+	line-height:15pt;
+	top:1pt;
+	right:1pt;
+	position:absolute;
+	text-align:center;
+	cursor:pointer;
+}
+#info{
+	min-height:300pt;
+}
+
+
+
+
